@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Objects;
 
-class ProgramTest {
+public class ProgramTest {
 
     @Test
     static boolean isCorrect() {
