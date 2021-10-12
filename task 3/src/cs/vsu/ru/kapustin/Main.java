@@ -19,11 +19,11 @@ public class Main {
     }
 
     private static void checkCorrectness() {
-        if (!ProgramTest.isCorrect()) {
+        if (ProgramTest.isCorrect()) {
+            System.out.println("The test was successful!");
+        } else {
             System.out.print("Error! The program did not pass validation!");
             System.exit(1);
-        } else {
-            System.out.println("The test was successful!");
         }
     }
 
