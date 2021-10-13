@@ -1,9 +1,9 @@
 package cs.vsu.ru.kapustin.figures;
 
 public class VerticalParabola {
-    public double x0;
-    public double y0;
-    public double a;
+    double x0;
+    double y0;
+    double a;
 
     public VerticalParabola(int x0, double y0, double a) {
         this.x0 = x0;
