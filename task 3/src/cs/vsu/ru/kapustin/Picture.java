@@ -53,7 +53,7 @@ public class Picture {
         return SimpleColor.BLUE;
     }
 
-    private SimpleColor getColorFromRestOfGraph(double x, double y) {
+    private SimpleColor getColorFromRemainderOfGraph(double x, double y) {
         if (C1.isPointInsideCircle(x, y) && !L1.isPointAboveLine(x, y) && P2.isPointInsideParabola(x, y)) {
             return SimpleColor.GREEN;
         }
