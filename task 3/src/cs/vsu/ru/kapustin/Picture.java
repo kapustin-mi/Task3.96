@@ -17,6 +17,7 @@ public class Picture {
         this.P3 = P3;
         this.C1 = C1;
     }
+    
     public SimpleColor getColor(double x, double y) {
         if (C1.isPointInsideCircle(x, y) && L1.isPointAboveLine(x, y)) {
             if (!P1.isPointInsideParabola(x, y) && !P2.isPointInsideParabola(x, y) && !P3.isPointInsideParabola(x, y)) {
